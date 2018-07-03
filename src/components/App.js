@@ -20,12 +20,13 @@ class App extends React.Component {
     return (
       <div className="app">
         <h1>Search for an Emoji</h1>
+        <p>Type a word like 'laugh' or 'kiss' or 'food' and get a matching emoji!</p>
         <form>
           <input 
           type="text" 
           value={this.state.search} 
           onChange={this.updateSearch.bind(this)}
-          placeholder="Start typing..." 
+          placeholder="Type your emoji word..." 
           />
         </form>
         <div className="results">
