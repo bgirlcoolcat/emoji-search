@@ -1,0 +1,26 @@
+ul, h1, h3, p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  list-style-type:none;
+}
+
+h3 {
+  display: inline;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.symbol {
+  display: inline;
+  padding-right: 10px;
+}
+
+input[type=text] {
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
